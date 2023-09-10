@@ -29,7 +29,7 @@ body {
 
 .nav-bar {
   display: flex;
-  justify-content: end;
+  justify-content: flex-end;
   padding-right: 2em;
   padding-top: 0.5em;
   padding-bottom: 0.5em;
@@ -64,7 +64,7 @@ nav a {
 
 /* Visited link styling (prevents color change) */
 nav a:visited {
-  color: rgb(37, 135, 215);
+  color: rgb(255, 255, 255);
   /* Set the same color as regular links */
 }
 
